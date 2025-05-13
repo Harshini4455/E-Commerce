@@ -1,0 +1,202 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Bluetooth Headphones",
+      "price": 89.99,
+      "description": "Premium noise-cancelling wireless headphones with 30-hour battery life.",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Electronics",
+      "rating": 4.7,
+      "reviews": 215
+    },
+    {
+      "id": 2,
+      "name": "Smart Fitness Watch",
+      "price": 129.99,
+      "description": "Track your heart rate, steps, and workouts with this advanced smartwatch.",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Electronics",
+      "rating": 4.5,
+      "reviews": 178
+    },
+    {
+      "id": 3,
+      "name": "Leather Wallet",
+      "price": 45.50,
+      "description": "Genuine leather wallet with multiple card slots and cash compartment.",
+      "image": "https://images.unsplash.com/photo-1591561954555-607968c989ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Accessories",
+      "rating": 4.3,
+      "reviews": 92
+    },
+    {
+      "id": 4,
+      "name": "Running Shoes",
+      "price": 79.95,
+      "description": "Lightweight running shoes with cushioned soles for maximum comfort.",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Footwear",
+      "rating": 4.8,
+      "reviews": 256
+    },
+    {
+      "id": 5,
+      "name": "Coffee Maker",
+      "price": 59.99,
+      "description": "12-cup programmable coffee maker with auto shut-off feature.",
+      "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Home",
+      "rating": 4.4,
+      "reviews": 143
+    },
+    {
+      "id": 6,
+      "name": "Wireless Keyboard",
+      "price": 49.99,
+      "description": "Slim wireless keyboard with quiet-touch keys and long battery life.",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Electronics",
+      "rating": 4.2,
+      "reviews": 87
+    },
+    {
+      "id": 7,
+      "name": "Cotton T-Shirt",
+      "price": 19.99,
+      "description": "100% cotton t-shirt available in multiple colors and sizes.",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Clothing",
+      "rating": 4.1,
+      "reviews": 64
+    },
+    {
+      "id": 8,
+      "name": "Backpack",
+      "price": 65.00,
+      "description": "Durable backpack with laptop compartment and water-resistant material.",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Accessories",
+      "rating": 4.6,
+      "reviews": 132
+    },
+    {
+      "id": 9,
+      "name": "Smartphone",
+      "price": 699.99,
+      "description": "Latest smartphone with 128GB storage and triple camera system.",
+      "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Electronics",
+      "rating": 4.9,
+      "reviews": 342
+    },
+    {
+      "id": 10,
+      "name": "Desk Lamp",
+      "price": 34.95,
+      "description": "Adjustable LED desk lamp with multiple brightness levels.",
+      "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Home",
+      "rating": 4.0,
+      "reviews": 56
+    },
+    {
+      "id": 11,
+      "name": "Yoga Mat",
+      "price": 29.99,
+      "description": "Non-slip yoga mat with carrying strap, perfect for home workouts.",
+      "image": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Fitness",
+      "rating": 4.3,
+      "reviews": 78
+    },
+    {
+      "id": 12,
+      "name": "Blender",
+      "price": 89.99,
+      "description": "High-powered blender for smoothies, soups, and food preparation.",
+      "image": "https://images.unsplash.com/photo-1560343090-f0409e92791a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Home",
+      "rating": 4.5,
+      "reviews": 121
+    },
+    {
+      "id": 13,
+      "name": "Sunglasses",
+      "price": 75.00,
+      "description": "Polarized sunglasses with UV protection and lightweight frame.",
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Accessories",
+      "rating": 4.2,
+      "reviews": 89
+    },
+    {
+      "id": 14,
+      "name": "Wireless Earbuds",
+      "price": 119.99,
+      "description": "True wireless earbuds with noise cancellation and 24-hour battery.",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Electronics",
+      "rating": 4.6,
+      "reviews": 187
+    },
+    {
+      "id": 15,
+      "name": "Denim Jeans",
+      "price": 59.95,
+      "description": "Classic fit denim jeans made with stretch fabric for comfort.",
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Clothing",
+      "rating": 4.4,
+      "reviews": 103
+    },
+    {
+      "id": 16,
+      "name": "Digital Camera",
+      "price": 449.99,
+      "description": "24MP digital camera with 4K video and interchangeable lenses.",
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Electronics",
+      "rating": 4.7,
+      "reviews": 231
+    },
+    {
+      "id": 17,
+      "name": "Ceramic Coffee Mug",
+      "price": 12.99,
+      "description": "Handcrafted ceramic mug with comfortable grip and 14oz capacity.",
+      "image": "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Home",
+      "rating": 4.1,
+      "reviews": 67
+    },
+    {
+      "id": 18,
+      "name": "Dress Shoes",
+      "price": 99.99,
+      "description": "Premium leather dress shoes with cushioned insoles.",
+      "image": "https://images.unsplash.com/photo-1463100099107-aa0980c362e6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Footwear",
+      "rating": 4.5,
+      "reviews": 112
+    },
+    {
+      "id": 19,
+      "name": "Portable Speaker",
+      "price": 79.95,
+      "description": "Waterproof Bluetooth speaker with 20-hour playtime.",
+      "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Electronics",
+      "rating": 4.4,
+      "reviews": 145
+    },
+    {
+      "id": 20,
+      "name": "Winter Jacket",
+      "price": 129.99,
+      "description": "Insulated winter jacket with waterproof shell and multiple pockets.",
+      "image": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": "Clothing",
+      "rating": 4.6,
+      "reviews": 198
+    }
+  ]

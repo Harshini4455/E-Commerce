@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head', {title: 'Wishlist'}) %>
+</head>
+<body>
+  <%- include('partials/navbar') %>
+  
+  <main class="container wishlist-page">
+    <h1>Your Wishlist</h1>
+    
+    <div class="wishlist-container">
+      <div class="wishlist-empty">
+        <i class="fas fa-heart"></i>
+        <p>Your wishlist is empty</p>
+        <a href="/" class="btn">Browse Products</a>
+      </div>
+      <!-- Wishlist items would be dynamically inserted here -->
+    </div>
+  </main>
+
+  <%- include('partials/footer') %>
+  
+  <script src="/js/theme.js"></script>
+  <script src="/js/wishlist.js"></script>
+</body>
+</html>

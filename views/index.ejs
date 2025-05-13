@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head', {title: 'Home'}) %>
+</head>
+<body>
+  <%- include('partials/navbar') %>
+  
+  <main class="container">
+    
+
+    <section class="products-section">
+      <h2>Featured Products</h2>
+      <div class="products-grid">
+        <% products.forEach(product => { %>
+          <div class="product-card" data-id="<%= product.id %>">
+            <div class="product-image">
+              <img src="<%= product.image %>" alt="<%= product.name %>">
+              <div class="product-actions">
+                <button class="add-to-cart" data-id="<%= product.id %>"><i class="fas fa-shopping-cart"></i></button>
+                <button class="add-to-wishlist" data-id="<%= product.id %>"><i class="fas fa-heart"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3><%= product.name %></h3>
+              <div class="product-rating">
+                <% for (let i = 0; i < 5; i++) { %>
+                  <% if (i < Math.floor(product.rating)) { %>
+                    <i class="fas fa-star"></i>
+                  <% } else if (i < product.rating) { %>
+                    <i class="fas fa-star-half-alt"></i>
+                  <% } else { %>
+                    <i class="far fa-star"></i>
+                  <% } %>
+                <% } %>
+                <span>(<%= product.reviews %>)</span>
+              </div>
+              <p class="product-price">$<%= product.price.toFixed(2) %></p>
+              <a href="/product/<%= product.id %>" class="btn view-details">View Details</a>
+            </div>
+          </div>
+        <% }) %>
+      </div>
+    </section>
+  </main>
+
+  <%- include('partials/footer') %>
+  
+  <script src="/js/theme.js"></script>
+  <script src="/js/cart.js"></script>
+  <script src="/js/wishlist.js"></script>
+  <script src="/js/animations.js"></script>
+</body>
+</html>
